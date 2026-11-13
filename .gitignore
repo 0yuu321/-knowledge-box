@@ -1,0 +1,14 @@
+node_modules/
+dist/
+*.local
+*.log
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+# PowerShellが生成するローカルキャッシュ
+/Microsoft/
+.vercel/
+# アプリから書き出したバックアップを誤って公開しない
+knowledge-box-*.json
